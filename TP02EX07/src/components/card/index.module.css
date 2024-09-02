@@ -1,0 +1,37 @@
+.containerBox
+{
+    
+    height: 100%;
+    padding-top: 20px;
+}
+
+.containerContent
+{
+    border: solid black 3px;
+    padding: 10px;
+    width: 90%;
+    height: fit-content;
+    margin: auto;    display:flex;
+    flex-direction: column;
+}
+.title
+{
+   margin-bottom: 20px;
+}
+
+.paragraph
+{
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+@media(min-width:768px)
+{
+.containerBox
+{
+    
+    height: fit-content;
+    
+  }
+}

@@ -1,0 +1,21 @@
+.containerContent
+{
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.title
+{
+    font-size: x-large;
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.paragraph
+{
+    font-family: sans-serif;
+    text-align: justify;
+}
