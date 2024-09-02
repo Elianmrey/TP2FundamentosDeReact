@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+   
+}
+
+.container
+{
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ }
+.title
+{
+    font-size: 1.3rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.cardStockContainer
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    padding:30px;
+}
+
+.card {
+  margin: 0;  
+  width: 300px;
+  height: 550px;
+  background-color:#21283f;
+  box-shadow: inset 0px 0px 80px 20px #0b132b;
+  clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 60px), calc(100% - 60px) 100%, 0 100%, 0% 30px);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: groove black 3px;
+  transform: scale(0.8);
+}
+.card span {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 1rem;
+  margin: 20px auto
+}
+.card .info {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  word-spacing: 3px;
+  font-size: 0.9rrem;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.card .imgContainer {
+  width: 150px;
+  height:150px;
+  background: transparent;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.card .share {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card a {
+  color: white;
+  text-decoration:none;
+  transition: .4s ease-in-out;
+}
+
+.card a:hover {
+  color: #4095ce;
+  user-select: none;
+}
+
+.card button {
+  padding: 0.8rem 1.7rem;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #04153a;
+  transition: .4s ease-in-out;
+ }
+
+.card button:hover {
+  background: #001324;
+  color: white;
+  cursor: pointer;
+}
+
+.gitSvg
+{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+@media screen and (min-width:768px)
+{
+
+    .card {
+    transform: scale(0.9);
+    }
+
+    .cardStockContainer
+{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    padding:30px;
+    margin: auto;
+}
+}
+
+
+
+@media screen and (min-width: 1920px)
+{
+      .card {
+    transform: scale(1.0);
+    margin:15px;
+}
+
+    .cardStockContainer
+{
+    width: 60%;
+    display: flex;
+}
+
+
+}

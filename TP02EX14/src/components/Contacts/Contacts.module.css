@@ -1,0 +1,93 @@
+
+.containerContacts
+{
+    background-color:#21283f;
+    box-shadow: inset 0px 0px 80px 20px #0b132b;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.tilttleContacts
+{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contacts
+{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+} 
+
+.whatsapp,
+.facebook, .instagram
+{
+    width: 40px;
+}
+ .telegram
+ {
+  width: 40px;  
+  margin-bottom:7px;
+ }
+
+.discord
+{
+    stroke-width: 2%;
+    stroke:#2c2f33;
+    margin-bottom:2px;
+}
+
+.ContactLink
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    gap:10px;  
+    text-decoration: none;
+    color: white
+}
+.ContactLink:visited
+{
+    color: white;
+}
+
+
+@media screen and (min-width:768px) and (pointer:fine)
+{
+.whatsapp:hover, .telegram:hover,
+.facebook:hover, .instagram:hover,
+.discord:hover
+{
+    box-shadow: 0px 0px 50px 10px #012b50;
+}
+}
+
+@media screen and (min-width:768px)
+{
+.contacts
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+} 
+}
+
+
+@media screen and (min-width:1920px)
+{
+.contacts
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+} 
+}

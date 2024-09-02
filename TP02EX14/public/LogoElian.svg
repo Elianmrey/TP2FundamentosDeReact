@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 278 257.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_927);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7 {
+        filter: url(#drop-shadow-2);
+        font-size: 33.47px;
+        letter-spacing: .1em;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #aebccc;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_926);
+      }
+
+      .cls-8 {
+        filter: url(#drop-shadow-3);
+        font-size: 11.28px;
+        letter-spacing: .5em;
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_943);
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-9 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_924);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_928);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_925);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="10"/>
+      <feGaussianBlur result="blur" stdDeviation="10"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_928" data-name="Degradado sin nombre 928" x1="18.65" y1="4867.1" x2="97.61" y2="4788.14" gradientTransform="translate(0 4908.09) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5f96ff"/>
+      <stop offset=".58" stop-color="#4f54d9"/>
+      <stop offset=".73" stop-color="#4e4ed5"/>
+      <stop offset=".91" stop-color="#4e40cb"/>
+      <stop offset="1" stop-color="#4e37c5"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_927" data-name="Degradado sin nombre 927" x1="43.83" y1="4867.03" x2="97.46" y2="4920.67" gradientTransform="translate(0 4908.09) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d56de"/>
+      <stop offset=".27" stop-color="#4b79ff"/>
+      <stop offset="1" stop-color="#90ecff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_926" data-name="Degradado sin nombre 926" x1="97.46" y1="94.78" x2="204.84" y2="-12.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#571eab"/>
+      <stop offset="0" stop-color="#5920af"/>
+      <stop offset=".08" stop-color="#6a2eca"/>
+      <stop offset=".16" stop-color="#7739e0"/>
+      <stop offset=".25" stop-color="#8041ef"/>
+      <stop offset=".35" stop-color="#8646f8"/>
+      <stop offset=".5" stop-color="#8848fb"/>
+      <stop offset="1" stop-color="#a97ffb"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_925" data-name="Degradado sin nombre 925" x1="204.84" y1="12.63" x2="258.63" y2="66.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#702bff"/>
+      <stop offset=".43" stop-color="#a33aff"/>
+      <stop offset=".65" stop-color="#b23cff"/>
+      <stop offset="1" stop-color="#d343ff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_924" data-name="Degradado sin nombre 924" x1="-7804.27" y1="119.98" x2="-7857.91" y2="66.34" gradientTransform="translate(-7624.52 .08) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffa7ff"/>
+      <stop offset=".27" stop-color="#f46aff"/>
+      <stop offset=".48" stop-color="#ec40ff"/>
+      <stop offset=".58" stop-color="#ea31ff"/>
+      <stop offset=".67" stop-color="#e32cf9"/>
+      <stop offset=".8" stop-color="#d220ea"/>
+      <stop offset=".93" stop-color="#b60bd2"/>
+      <stop offset="1" stop-color="#a600c5"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="7"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="7"/>
+      <feGaussianBlur result="blur-3" stdDeviation="7"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_943" data-name="Degradado sin nombre 943" x1="21.12" y1="190.66" x2="256.16" y2="190.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#90ecff"/>
+      <stop offset=".26" stop-color="#4b79ff"/>
+      <stop offset=".52" stop-color="#8848fb"/>
+      <stop offset=".79" stop-color="#d343ff"/>
+      <stop offset="1" stop-color="#ffa7ff"/>
+    </linearGradient>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="7"/>
+      <feGaussianBlur result="blur-4" stdDeviation="7"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <g class="cls-9">
+        <polygon class="cls-5" points="59.7 107.4 5.97 53.68 31.33 28.32 110.17 107.4 59.7 107.4"/>
+        <polygon class="cls-1" points="31.25 28.4 59.61 .04 110.08 .04 56.44 53.68 31.25 28.4"/>
+        <polygon class="cls-2" points="167.05 .08 167.01 0 84.89 82.12 110.08 107.4 217.46 .02 167.05 .08"/>
+        <polygon class="cls-6" points="271.31 53.74 217.58 .02 217.46 .02 192.25 25.23 245.95 79.1 271.31 53.74"/>
+        <polygon class="cls-4" points="245.97 79.07 217.6 107.44 167.13 107.44 220.78 53.8 245.97 79.07"/>
+      </g>
+      <text class="cls-7" transform="translate(23.17 166.29)"><tspan x="0" y="0">CYBERCODE</tspan></text>
+      <text class="cls-8" transform="translate(43.95 222.77)"><tspan x="0" y="0">DESENVOLVIMENTO</tspan></text>
+      <rect class="cls-3" x="21.12" y="189.13" width="235.04" height="3.05"/>
+    </g>
+  </g>
+</svg>
