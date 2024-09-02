@@ -1,0 +1,36 @@
+.containerContacts
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+    height: fit-content;
+    padding:20px;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.contactParagraph
+{
+    text-align: justify;
+}
+
+
+
+@media(min-width:768px)
+{
+    
+.title
+{
+    text-align: start; 
+}
+
+.containerContacts
+{
+    width: 1000px;
+    margin:auto;
+}
+}

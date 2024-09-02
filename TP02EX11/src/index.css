@@ -1,0 +1,8 @@
+html
+{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+cursor: url('./components/cursor/cursor-blue.png') 16 16, auto;
+}
+

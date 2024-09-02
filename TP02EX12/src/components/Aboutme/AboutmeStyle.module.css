@@ -1,0 +1,175 @@
+*{
+font-family: sans-serif;
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+
+body
+{
+    background-color: #1c2541;
+   
+}
+
+.componentContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border: none;
+    color: white;
+    
+    margin: 0px;
+    overflow-x: hidden;
+}
+.cardAboutContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:40px;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    border:none;
+    color:white;
+    border-radius: 20px;
+    background-color:#21283f;
+    box-shadow: inset 0px 0px 80px 20px #0b132b;
+    margin: 20px auto;
+    overflow-x: hidden;
+}
+.photoContainer
+{
+width: fit-content;
+height: fit-content;
+padding: 10px;
+margin: 10px;
+}
+.profilePhoto
+{
+    width: 180px;
+    border-radius: 50%;
+    border:solid #ffffff 3px;
+    user-select: none;
+    pointer-events:none;
+
+}
+.descriptionContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+.title::before
+{
+    position:relative;
+    top:-12px;
+    left: -20px;
+    display:flex;
+    font-size: 1.5rem;
+    content:"___";
+    height: 3px;
+    width:50px;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+    background-color:#ffffff;
+}
+.title::after
+{
+    position:relative;
+    top:-12px;
+    left: 20px;
+    display:flex;
+    font-size: 1.5rem;
+    content:"___";
+    height: 3px;
+    width:50px;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+    background-color:#ffffff;
+    white-space: nowrap;
+}
+.description
+{
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.descriptionExtendedContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titleExtended
+{
+    display: flex;
+    margin: 10px auto;
+}
+
+.descriptionExtended
+{
+    display: flex;
+    text-align:justify;
+    padding:35px;
+    margin-top: -15px; 
+    word-spacing: -2px;
+    text-align-last: left;
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (min-width:768px) and (pointer: fine)
+{
+   
+    .componentContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    width: 1000px;
+    height: 100%;
+    align-items: center;
+    border:none;
+    color:white;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+    .cardAboutContainer
+    {
+            flex-direction: row;
+            justify-content: center;
+    }
+    .descriptionContainer
+    {
+        width: 600px;
+    }
+}
